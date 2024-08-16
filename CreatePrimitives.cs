@@ -6,7 +6,7 @@ public class CreatePrimitives : MonoBehaviour
 {
     void Start()
     {
-        // Кубы создаются один раз при старте игры.
+        // РљСѓР±С‹ СЃРѕР·РґР°СЋС‚СЃСЏ РѕРґРёРЅ СЂР°Р· РїСЂРё СЃС‚Р°СЂС‚Рµ РёРіСЂС‹.
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0, 0, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 1, 0);
         GameObject.CreatePrimitive(PrimitiveType.Cube).transform.position = new Vector3(0.5f, 1, 0);
