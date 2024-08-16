@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Crickets : MonoBehaviour
 {
-    // Выводим в консоль каждый кадр
+    // Р’С‹РІРѕРґРёРј РІ РєРѕРЅСЃРѕР»СЊ РєР°Р¶РґС‹Р№ РєР°РґСЂ
     void Update()
     {
-        print("crickets"); // Выводим слово "crickets" в консоль 
+        print("crickets"); // Р’С‹РІРѕРґРёРј СЃР»РѕРІРѕ "crickets" РІ РєРѕРЅСЃРѕР»СЊ 
     }
 }
